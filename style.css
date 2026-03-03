@@ -132,7 +132,6 @@ body
 
 #content
 {
-    overflow: hidden;
     margin-left: 1vw;
     margin-right: 1vw;
 }
@@ -237,6 +236,11 @@ footer a
     #content-grid
     {
         display: block;
+    }
+
+    #content
+    {
+        overflow: hidden;
     }
 
     #navigation-bar
