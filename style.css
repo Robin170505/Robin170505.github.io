@@ -192,6 +192,12 @@ body
     text-align: justify;
 }
 
+.content-sources-text
+{
+    font-size: 1.1em;
+    text-align: left;
+}
+
 footer
 {
     min-height: 20vh; 
