@@ -75,4 +75,5 @@ function connect_observer_for_fly_in(observer, class_name)
 const observer = new IntersectionObserver(animate_if_in_view);
 connect_observer_for_fly_in(observer, "content-heading");
 connect_observer_for_fly_in(observer, "content-subheading");
+connect_observer_for_fly_in(observer, "content-subsubheading");
 connect_observer_for_fly_in(observer, "content-text");
