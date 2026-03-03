@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     font-family: sans-serif;
+
 }
 
 #header
@@ -95,6 +96,7 @@ body
 
 #navigation-bar ul li:hover
 {
+    margin-left: 1.45vw;
     background-color: beige;
     color: black;
 }
@@ -124,14 +126,14 @@ body
 
 #navigation-bar ul ul li:hover
 {
-    font-size: 0.9em;
-    color: beige;
-    background-color: black;
+    color: white;
+    background-color: #20201b;
 }
 
 #content
 {
     margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .content-heading
@@ -154,6 +156,17 @@ body
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-image: linear-gradient(to right, #986b35, #360033) 1;
+}
+
+.content-subsubheading
+{
+    font-size: 2em;
+    font-family: monospace;
+    margin-left: auto;
+    margin-top: 1vh;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-image: linear-gradient(to right, #986b35, #360033) 1;   
 }
 
 .visibile-for-fly-in
@@ -181,7 +194,7 @@ body
 
 footer
 {
-    min-height: 40vh; 
+    min-height: 20vh; 
     background-color: #20201b;
 
     display: block;
@@ -195,18 +208,20 @@ footer
     grid-template-rows: 50% 20% 30%;
 }
 
+
 footer a
 {
-    display: block;
     text-decoration: unset;
     color: inherit;
 }
 
+/*
 .footer-text
 {
     display: grid;
     grid-template-columns: 20% 22% 23% 22%;
 }
+*/
 
 
 
