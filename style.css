@@ -273,6 +273,11 @@ footer a
         position: relative;
         font-size: 1em;
     }
+
+    figure img
+    {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 350px)
