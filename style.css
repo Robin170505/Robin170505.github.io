@@ -297,6 +297,11 @@ tr:nth-child(odd)
     {
         width: 100%;
     }
+
+    .table-wrapper 
+    {
+        overflow-x: auto;
+    }
 }
 
 @media screen and (max-width: 350px)
