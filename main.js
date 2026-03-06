@@ -77,5 +77,6 @@ connect_observer_for_fly_in(observer, "content-heading");
 connect_observer_for_fly_in(observer, "content-subheading");
 connect_observer_for_fly_in(observer, "content-subsubheading");
 connect_observer_for_fly_in(observer, "content-text");
+connect_observer_for_fly_in(observer, "content-sources-text");
 connect_observer_for_fly_in(observer, "content-image");
 connect_observer_for_fly_in(observer, "content-tabular");
