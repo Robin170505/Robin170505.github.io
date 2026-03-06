@@ -243,8 +243,10 @@ footer a
 }
 */
 
-table {
-    margin: 5vh;
+table 
+{
+    font-family: sans-serif;
+    margin: 15px;
     border-collapse: collapse;
     width: 100%;
     text-align: left;
