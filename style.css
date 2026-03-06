@@ -121,6 +121,7 @@ body
     font-size: 0.815em;
     background-color: beige;
     color: black;
+    border-bottom:  black 1px solid;
 }
 
 #navigation-bar ul ul li:hover
@@ -242,7 +243,23 @@ footer a
 }
 */
 
+table {
+    margin: 5vh;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
+}
 
+th
+{
+    border: black 1px solid;
+}
+
+tr:nth-child(odd)
+{
+    background-color: lightgray;
+}
 
 
 @media screen and (max-width: 800px)
